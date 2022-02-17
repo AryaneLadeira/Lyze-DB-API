@@ -1,0 +1,26 @@
+{
+  "name": "lyze-db-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AryaneLadeira/Lyze-DB-API.git"
+  },
+  "author": "Aryane Ladeira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AryaneLadeira/Lyze-DB-API/issues"
+  },
+  "homepage": "https://github.com/AryaneLadeira/Lyze-DB-API#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "config": "^3.2.3",
+    "express": "^4.17.1",
+    "mysql2": "^2.3.3"
+  }
+}
